@@ -1,4 +1,4 @@
-import type { Manga } from '../types/manga'
+import type { Manga } from '~/types/manga'
 
 export const MangaData: Manga[] = [
 
@@ -481,7 +481,7 @@ export const MangaData: Manga[] = [
         id: crypto.randomUUID(),
         image: 'https://m.media-amazon.com/images/I/81CfbcFFyHL.jpg',
         title: 'Uzumaki Dexule',
-        vol: null,
+        vol: 9999,
         pageLength: 648,
         genres: [ 'Seinen', 'Dark Fantasy', 'Supernatural', 'Horror' ],
         author: {
@@ -1821,7 +1821,7 @@ export const MangaData: Manga[] = [
         id: crypto.randomUUID(),
         image: 'https://m.media-amazon.com/images/I/81tkIOIlM2L._UF1000,1000_QL80_.jpg',
         title: 'Shiver: Junji Ito Selected Stories',
-        vol: null,
+        vol: 9999,
         pageLength: 400,
         genres: [ 'Seinen', 'Dark Fantasy', 'Supernatural', 'Horror' ],
         author: {
@@ -1843,7 +1843,7 @@ export const MangaData: Manga[] = [
         id: crypto.randomUUID(),
         image: 'https://m.media-amazon.com/images/I/91BLr-0jORL.jpg',
         title: 'Smashed: Junji Ito Story Collection',
-        vol: null,
+        vol: 9999,
         pageLength: 416,
         genres: [ 'Seinen', 'Dark Fantasy', 'Supernatural', 'Horror' ],
         author: {
