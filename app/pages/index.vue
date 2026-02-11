@@ -1,26 +1,24 @@
 <script setup lang="ts">
-import { MangaData } from '~/data/manga-data'
-import { useCart } from '~/composables/useCart'
-import { useWishlist } from '~/composables/useWishlist'
-
-const { addToCart, totalItems } = useCart()
-const { toggleWishlist, wishlist } = useWishlist()
+import MangaCarousel from '~/components/home/MangaCarousel.vue'
+import FeaturedCollection from '~/components/home/FeaturedCollection.vue'
+import SpecialOffers from '~/components/home/SpecialOffers.vue'
 </script>
 
 <template>
-  <div style="padding: 40px">
-    <h1>Manga Store</h1>
+  <div class="home">
+    <MangaCarousel />
 
-    <p>Cart items: {{ totalItems }}</p>
-    <p>Wishlist items: {{ wishlist.length }}</p>
+    <FeaturedCollection />
 
-
-    <button @click="addToCart(MangaData[0])">
-      Add to Cart
-    </button>
-
-    <button @click="toggleWishlist(MangaData[0])">
-      Toggle Wishlist
-    </button>
+    <SpecialOffers />
   </div>
 </template>
+
+<style scoped>
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding-bottom: 100px;
+}
+</style>

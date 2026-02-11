@@ -11,7 +11,7 @@ const { wishlist } = useWishlist()
     <button title="Account">[profile]</button>
 
     <NuxtLink to="/wishlist" class="icon">
-      [lkes]
+      [likes]
       <span v-if="wishlist.length" class="count">
         {{ wishlist.length }}
       </span>
