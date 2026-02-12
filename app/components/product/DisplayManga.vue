@@ -43,7 +43,7 @@ const { toggleWishlist, isInWishlist } = useWishlist()
 .card img {
   width: 100%;
   height: 300px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .actions {

@@ -3,7 +3,7 @@ import type { Manga } from '~/types/manga'
 export const MangaData: Manga[] = [
 
     {
-        id: crypto.randomUUID(),
+        id: 'm_8962ccffd023',
         image: 'https://m.media-amazon.com/images/I/81IgOp0fOiL._SL1500_.jpg',
         title: 'One Piece',
         vol: 1,
@@ -23,7 +23,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: true, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_2b58273517e0',
         image: 'https://m.media-amazon.com/images/I/816pglBbjZL._SL1500_.jpg',
         title: 'One Piece',
         vol: 44,
@@ -43,7 +43,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_78764e591356',
         image: 'https://m.media-amazon.com/images/I/81gjq6IfdaL._SL1500_.jpg',
         title: 'One Piece',
         vol: 59,
@@ -63,7 +63,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: true, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_d04af00f95f2',
         image: 'https://m.media-amazon.com/images/I/81rEhhwbubL._SL1500_.jpg',
         title: 'One Piece',
         vol: 100,
@@ -83,7 +83,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_df649365c79f',
         image: 'https://m.media-amazon.com/images/I/81MMq-d3hLL._SL1500_.jpg',
         title: 'One Piece',
         vol: 103,
@@ -103,7 +103,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: true, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_7acae90ce44b',
         image: 'https://m.media-amazon.com/images/I/81d8JssLMdL._SL1500_.jpg',
         title: 'One Piece',
         vol: 105,
@@ -123,7 +123,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: true, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_f1dc76760fb3',
         image: 'https://m.media-amazon.com/images/I/91eRoWSACCL._SL1500_.jpg',
         title: 'Berserk Deluxe',
         vol: 1,
@@ -154,7 +154,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_c296c4e35589',
         image: 'https://m.media-amazon.com/images/I/91P4rOa8UxL._SL1500_.jpg',
         title: 'Berserk',
         vol: 10,
@@ -174,7 +174,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_26f9d36bbe57',
         image: 'https://m.media-amazon.com/images/I/718UYA3xcyL._SL1200_.jpg',
         title: 'Berserk',
         vol: 28,
@@ -194,7 +194,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_813c8cdcd442',
         image: 'https://m.media-amazon.com/images/I/81qJxMgdrqL._SL1500_.jpg',
         title: 'Dragon Ball',
         vol: 1,
@@ -216,7 +216,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: true, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_a77e8ee04a2b',
         image: 'https://m.media-amazon.com/images/I/8184nYtniTL._SL1500_.jpg',
         title: 'Dragon Ball',
         vol: 16,
@@ -238,7 +238,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: true, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_ca943fac4489',
         image: 'https://m.media-amazon.com/images/I/71QYLrc-IQL._SL1000_.jpg',
         title: 'Naruto',
         vol: 1,
@@ -260,7 +260,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: true, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_cca2541eccc1',
         image: 'https://m.media-amazon.com/images/I/81f5Zk-uTYL._SL1500_.jpg',
         title: 'Naruto',
         vol: 4,
@@ -282,7 +282,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_db271e8d1cae',
         image: 'https://m.media-amazon.com/images/I/81Mz+Sk0y7L._SL1500_.jpg',
         title: 'Naruto',
         vol: 26,
@@ -304,7 +304,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_213ba4aeb9ea',
         image: 'https://m.media-amazon.com/images/I/81vQo0Y9CmL._SL1500_.jpg',
         title: 'Naruto',
         vol: 45,
@@ -326,7 +326,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: true, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_120fd5ca8d49',
         image: 'https://m.media-amazon.com/images/I/71U--RNy3mL._SL1000_.jpg',
         title: 'Naruto',
         vol: 70,
@@ -348,7 +348,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: true, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_e3eae82bda6d',
         image: 'https://m.media-amazon.com/images/I/81bI2fDmrJL.jpg',
         title: 'Fullmetal Alchemist',
         vol: 11,
@@ -368,7 +368,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: true, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_c334f11afd06',
         image: 'https://m.media-amazon.com/images/I/81TnjhT2x3L._AC_UF894,1000_QL80_.jpg',
         title: 'Fullmetal Alchemist',
         vol: 2,
@@ -390,7 +390,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_bcace63e8a0a',
         image: 'https://m.media-amazon.com/images/I/817BQItiyaL._AC_UF894,1000_QL80_.jpg',
         title: 'One-Punch Man',
         vol: 1,
@@ -412,7 +412,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_37c3669e411b',
         image: 'https://m.media-amazon.com/images/I/81CuenNsEFL.jpg',
         title: 'One-Punch Man',
         vol: 2,
@@ -434,7 +434,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_de6e0be77f6d',
         image: 'https://m.media-amazon.com/images/I/81aA84Bci1L.jpg',
         title: 'One-Punch Man',
         vol: 5,
@@ -456,7 +456,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: true, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_71278e1fa28b',
         image: 'https://m.media-amazon.com/images/I/81+vmBrN0-L._AC_UF894,1000_QL80_.jpg',
         title: 'One-Punch Man',
         vol: 10,
@@ -478,7 +478,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_39219537fe12',
         image: 'https://m.media-amazon.com/images/I/81CfbcFFyHL.jpg',
         title: 'Uzumaki Dexule',
         vol: 9999,
@@ -498,7 +498,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_c15597022cef',
         image: 'https://m.media-amazon.com/images/I/9162Ub75x4L._AC_UF894,1000_QL80_.jpg',
         title: 'Slam Dunk',
         vol: 5,
@@ -520,7 +520,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: true, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_eb280afa7eab',
         image: 'https://m.media-amazon.com/images/I/81UsLRSbeVL.jpg',
         title: 'Slam Dunk',
         vol: 18,
@@ -542,7 +542,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: true, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_089dc443932c',
         image: 'https://dyn.media.forbiddenplanet.com/eR1mr7kIKTOZBK3bW_Tu5wo4RQI=/fit-in/1500x1500/https://media.forbiddenplanet.com/products/f2/e2/84efd66bc40bd5bf6902ae8e1f46837c1dd7.jpg',
         title: 'Slam Dunk',
         vol: 29,
@@ -564,7 +564,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_e295b9fc6b0f',
         image: 'https://m.media-amazon.com/images/I/81jPkEYif0L.jpg',
         title: 'Vagabond Definitive',
         vol: 1,
@@ -586,7 +586,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: true, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_1e07bcfff532',
         image: 'https://m.media-amazon.com/images/I/81cuiRXyaTL.jpg',
         title: 'Vagabond',
         vol: 7,
@@ -608,7 +608,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_8e19611ff050',
         image: 'https://m.media-amazon.com/images/I/91Bgugit5tL.jpg',
         title: 'Vagabond',
         vol: 12,
@@ -630,7 +630,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_27a35306e310',
         image: 'https://m.media-amazon.com/images/I/81plRJerLmL.jpg',
         title: "JoJo's Bizarre Adventure Part 1",
         vol: 2,
@@ -652,7 +652,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_9e89117ed526',
         image: 'https://m.media-amazon.com/images/I/81p6kt0TE-L.jpg',
         title: "JoJo's Bizarre Adventure Part 2",
         vol: 4,
@@ -674,7 +674,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_78ba9f6b52d6',
         image: 'https://m.media-amazon.com/images/I/81sm07aZwDL.jpg',
         title: "JoJo's Bizarre Adventure Part 3",
         vol: 10,
@@ -696,7 +696,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_05a73b603494',
         image: 'https://m.media-amazon.com/images/I/810TKXWYZHL.jpg',
         title: "JoJo's Bizarre Adventure Part 4",
         vol: 4,
@@ -718,7 +718,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_c157f5cc4d8a',
         image: 'https://m.media-amazon.com/images/I/81U4EonYjUL.jpg',
         title: "JoJo's Bizarre Adventure Part 4",
         vol: 9,
@@ -740,7 +740,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_c10cbd290ee1',
         image: 'https://m.media-amazon.com/images/I/81uj1Y9qXzL.jpg',
         title: "JoJo's Bizarre Adventure Part 5",
         vol: 8,
@@ -762,7 +762,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_558f13b89ce8',
         image: 'https://m.media-amazon.com/images/I/715hSpTTzHL._AC_UF894,1000_QL80_.jpg',
         title: "JoJo's Bizarre Adventure Part 7",
         vol: 1,
@@ -784,7 +784,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: true, newRelease: true, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_27a35306e310',
         image: 'https://m.media-amazon.com/images/I/81IR1i0DpaL._SL1500_.jpg',
         title: 'Death Note',
         vol: 1,
@@ -811,7 +811,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_4919fc1bec04',
         image: 'https://m.media-amazon.com/images/I/91qhleX1JML._SL1500_.jpg',
         title: 'Death Note',
         vol: 2,
@@ -838,7 +838,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_7d177967bce1',
         image: 'https://m.media-amazon.com/images/I/81I3KFkAcRL._SL1500_.jpg',
         title: 'Death Note',
         vol: 3,
@@ -865,7 +865,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_824a50a4b004',
         image: 'https://m.media-amazon.com/images/I/91mgtWmsepL._SL1500_.jpg',
         title: 'Death Note',
         vol: 4,
@@ -892,7 +892,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_1aa7b07bcaef',
         image: 'https://m.media-amazon.com/images/I/81v9J2r71oL._SL1500_.jpg',
         title: 'Jujutsu Kaisen',
         vol: 0,
@@ -914,7 +914,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_0dee2ca0b11d',
         image: 'https://m.media-amazon.com/images/I/81CJ-UOykQL._SL1500_.jpg',
         title: 'Jujutsu Kaisen',
         vol: 4,
@@ -936,7 +936,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_58f9b90627a4',
         image: 'https://m.media-amazon.com/images/I/81nGOkne3lL._SL1500_.jpg',
         title: 'Jujutsu Kaisen',
         vol: 8,
@@ -958,7 +958,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_2f23a44e0a74',
         image: 'https://m.media-amazon.com/images/I/81bLcPWFk3L._SL1500_.jpg',
         title: 'Jujutsu Kaisen',
         vol: 14,
@@ -980,7 +980,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_7c93cee679a0',
         image: 'https://m.media-amazon.com/images/I/81KHU+TRoxL._SL1500_.jpg',
         title: 'Jujutsu Kaisen',
         vol: 22,
@@ -1002,7 +1002,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_d3f16093b260',
         image: 'https://m.media-amazon.com/images/I/815xJbtOVfL._SL1500_.jpg',
         title: 'Monster Perfect Edition',
         vol: 1,
@@ -1026,7 +1026,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_a4c642df2e98',
         image: 'https://m.media-amazon.com/images/I/91+Qs9DaFZL._SL1500_.jpg',
         title: 'Vinland Saga',
         vol: 1,
@@ -1046,7 +1046,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: true, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_8abacdabd0f0',
         image: 'https://m.media-amazon.com/images/I/71ohzDBFvmL._SL1200_.jpg',
         title: 'Vinland Saga',
         vol: 4,
@@ -1066,7 +1066,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: true, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_8e3ce8732ebb',
         image: 'https://m.media-amazon.com/images/I/71yzeDm9ZXL._SL1200_.jpg',
         title: 'Vinland Saga',
         vol: 5,
@@ -1086,7 +1086,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_866881d0abb9',
         image: 'https://m.media-amazon.com/images/I/81nIhb1+iBL._SL1500_.jpg',
         title: 'Hunter X Hunter',
         vol: 1,
@@ -1110,7 +1110,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_f0bfe82aa3ec',
         image: 'https://m.media-amazon.com/images/I/71c-vQG3RDL._SL1500_.jpg',
         title: 'Hunter X Hunter',
         vol: 24,
@@ -1132,7 +1132,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_0332393e4282',
         image: 'https://m.media-amazon.com/images/I/91nunbvU04L._SL1500_.jpg',
         title: 'Mob Psycho 100',
         vol: 1,
@@ -1152,7 +1152,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_075c3f75355b',
         image: 'https://m.media-amazon.com/images/I/91nJtdFj3CL._SL1500_.jpg',
         title: 'Mob Psycho 100',
         vol: 4,
@@ -1172,7 +1172,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_fb9f8b3af47d',
         image: 'https://m.media-amazon.com/images/I/91bKgDiXVVL._SL1500_.jpg',
         title: 'Mob Psycho 100',
         vol: 12,
@@ -1192,7 +1192,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_67a0514705ba',
         image: 'https://m.media-amazon.com/images/I/91HmjQXIQ7L._SL1500_.jpg',
         title: 'Fire Punch',
         vol: 1,
@@ -1214,7 +1214,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_9423e5fbb738',
         image: 'https://m.media-amazon.com/images/I/81CtOknmyzL.jpg',
         title: 'Fire Punch',
         vol: 4,
@@ -1236,7 +1236,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_64170cca71c9',
         image: 'https://m.media-amazon.com/images/I/81EyGIrto3L.jpg',
         title: 'Chainsaw Man',
         vol: 1,
@@ -1258,7 +1258,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_2c136fc11d2e',
         image: 'https://m.media-amazon.com/images/I/71SKqtvjBAL._AC_UF894,1000_QL80_.jpg',
         title: 'AKIRA',
         vol: 1,
@@ -1278,7 +1278,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_b0c73b31ceea',
         image: 'https://m.media-amazon.com/images/I/71l-orkATnL.jpg',
         title: 'Spy X Family',
         vol: 1,
@@ -1300,7 +1300,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_14efb36bc724',
         image: 'https://m.media-amazon.com/images/I/71drihWbkML.jpg',
         title: 'Spy X Family',
         vol: 2,
@@ -1322,7 +1322,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_112b98a2012a',
         image: 'https://m.media-amazon.com/images/I/71POPOUAqVL._AC_UF894,1000_QL80_.jpg',
         title: 'Spy X Family',
         vol: 3,
@@ -1344,7 +1344,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_597aed1dd224',
         image: 'https://m.media-amazon.com/images/I/91vcj6OOMBL._UF1000,1000_QL80_.jpg',
         title: 'Demon Slayer',
         vol: 8,
@@ -1366,7 +1366,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: true, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_552cc2839d16',
         image: 'https://m.media-amazon.com/images/I/81nExBaEwGL.jpg',
         title: 'Demon Slayer',
         vol: 14,
@@ -1388,7 +1388,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: true, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_5f397dfc7659',
         image: 'https://m.media-amazon.com/images/I/71+yrizg2JL._SL1200_.jpg',
         title: 'Attack on Titan Colossal Edition',
         vol: 1,
@@ -1408,7 +1408,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: true, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_eceb856ebe6c',
         image: 'https://m.media-amazon.com/images/I/61aSap+A1iL._SL1000_.jpg',
         title: 'Bleach ',
         vol: 1,
@@ -1430,7 +1430,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: true, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_577355d2a098',
         image: 'https://m.media-amazon.com/images/I/81RBvNtbxfL._SL1500_.jpg',
         title: 'Bleach',
         vol: 24,
@@ -1452,7 +1452,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_c008887db196',
         image: 'https://m.media-amazon.com/images/I/81TZrYTkAkL._SL1500_.jpg',
         title: '20th Century Boys',
         vol: 20,
@@ -1474,7 +1474,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_9b54d49def6b',
         image: 'https://m.media-amazon.com/images/I/715aOKFS11L._SL1500_.jpg',
         title: 'Tokyo Ghoul',
         vol: 7,
@@ -1494,7 +1494,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_a5bcaf82f2cd',
         image: 'https://m.media-amazon.com/images/I/815rJRMLqqL._SL1500_.jpg',
         title: 'My Hero Academia',
         vol: 1,
@@ -1516,7 +1516,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_cf31c8f55806',
         image: 'https://m.media-amazon.com/images/I/81bOuPwkZWL._SL1500_.jpg',
         title: 'Sakamoto Days',
         vol: 3,
@@ -1538,7 +1538,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_4e94b942dda7',
         image: 'https://m.media-amazon.com/images/I/91-um1ueRqL._SL1500_.jpg',
         title: 'Dorohedoro',
         vol: 1,
@@ -1558,7 +1558,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_ba862d4437db',
         image: 'https://m.media-amazon.com/images/I/81VCjmzRy-L._SL1500_.jpg',
         title: 'PTSD Radio',
         vol: 2,
@@ -1578,7 +1578,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_f65f09281411',
         image: 'https://m.media-amazon.com/images/I/71h0-rh4FhL._SL1500_.jpg',
         title: 'Choujin X',
         vol: 5,
@@ -1600,7 +1600,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_4b43c9d77861',
         image: 'https://m.media-amazon.com/images/I/61n17DEPKEL._SL1500_.jpg',
         title: 'Choujin X',
         vol: 8,
@@ -1622,7 +1622,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_dd311a819df9',
         image: 'https://m.media-amazon.com/images/I/61sAh9ooL9L._SL1000_.jpg',
         title: 'Gintama',
         vol: 1,
@@ -1644,7 +1644,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_8eb475d0d7af',
         image: 'https://m.media-amazon.com/images/I/81k93EGnqvL._SL1500_.jpg',
         title: 'Gintama',
         vol: 29,
@@ -1666,7 +1666,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_63f4f4c7a974',
         image: 'https://m.media-amazon.com/images/I/81d6bXNMXFL._SL1500_.jpg',
         title: 'Gintama',
         vol: 77,
@@ -1688,7 +1688,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_270d2c5c9512',
         image: 'https://m.media-amazon.com/images/I/81MMbQXM3CL._SL1500_.jpg',
         title: 'Dandadan',
         vol: 6,
@@ -1710,7 +1710,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_d7f25a445482',
         image: 'https://m.media-amazon.com/images/I/81xNJXin8NL._AC_UF894,1000_QL80_.jpg',
         title: 'InuYasha',
         vol: 15,
@@ -1730,7 +1730,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_98752799949d',
         image: 'https://www.furinkan.com/iycompanion/manga/32.jpg',
         title: 'InuYasha',
         vol: 32,
@@ -1750,7 +1750,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_2167e158128e',
         image: 'https://m.media-amazon.com/images/I/81HfhOgciBL._SL1500_.jpg',
         title: 'Rurouni Kenshin',
         vol: 13,
@@ -1772,7 +1772,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_988c8681ffc9',
         image: 'https://m.media-amazon.com/images/I/71E9tSzhrYL._SL1500_.jpg',
         title: 'Kaguya-sama: Love is War',
         vol: 23,
@@ -1796,7 +1796,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_c2f1d27d26f7',
         image: 'https://m.media-amazon.com/images/I/81IgJ1cGaWS.jpg',
         title: 'Kaiju No. 8',
         vol: 1,
@@ -1818,7 +1818,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_b7be0b28df04',
         image: 'https://m.media-amazon.com/images/I/81tkIOIlM2L._UF1000,1000_QL80_.jpg',
         title: 'Shiver: Junji Ito Selected Stories',
         vol: 9999,
@@ -1840,7 +1840,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_e10b9939e118',
         image: 'https://m.media-amazon.com/images/I/91BLr-0jORL.jpg',
         title: 'Smashed: Junji Ito Story Collection',
         vol: 9999,
@@ -1860,7 +1860,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: true, newRelease: false, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_f7591c223f91',
         image: 'https://m.media-amazon.com/images/I/912V2U+luQL.jpg',
         title: 'Kagurabachi',
         vol: 1,
@@ -1882,7 +1882,7 @@ export const MangaData: Manga[] = [
         additionalInfo: { bestSeller: false, newRelease: true, wishlist: false }
     },
     {
-        id: crypto.randomUUID(),
+        id: 'm_750c81be0823',
         image: 'https://m.media-amazon.com/images/I/91yC4nRfLzL.jpg',
         title: 'Kagurabachi',
         vol: 3,
