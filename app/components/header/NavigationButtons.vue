@@ -8,17 +8,19 @@ const { wishlist } = useWishlist()
 
 <template>
   <div class="buttons">
-    <button title="Account">[profile]</button>
+    <button class="iconbtn" title="Account" aria-label="Account">
+      <i class="fa-solid fa-user"></i>
+    </button>
 
-    <NuxtLink to="/wishlist" class="icon">
-      [likes]
+    <NuxtLink to="/wishlist" class="icon" aria-label="Wishlist">
+      <i class="fa-solid fa-heart"></i>
       <span v-if="wishlist.length" class="count">
         {{ wishlist.length }}
       </span>
     </NuxtLink>
 
-    <NuxtLink to="/cart" class="icon">
-      [cart]
+    <NuxtLink to="/cart" class="icon" aria-label="Cart">
+      <i class="fa-solid fa-cart-shopping"></i>
       <span v-if="totalItems" class="count">
         {{ totalItems }}
       </span>
@@ -26,25 +28,4 @@ const { wishlist } = useWishlist()
   </div>
 </template>
 
-<style scoped>
-.buttons {
-  display: flex;
-  justify-content: flex-end;
-  gap: 16px;
-}
-
-.icon {
-  position: relative;
-}
-
-.count {
-  position: absolute;
-  top: -6px;
-  right: -8px;
-  background: #e50914;
-  color: #fff;
-  font-size: 11px;
-  padding: 2px 6px;
-  border-radius: 999px;
-}
-</style>
+<style scoped src="~/assets/styles/navigation-buttons.css"></style>

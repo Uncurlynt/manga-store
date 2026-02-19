@@ -7,21 +7,4 @@
   </nav>
 </template>
 
-<style scoped>
-.nav {
-  display: flex;
-  gap: 24px;
-  padding: 12px 40px;
-  border-top: 1px solid #222;
-}
-
-.nav a {
-  font-size: 14px;
-  opacity: 0.8;
-}
-
-.nav a.router-link-active {
-  opacity: 1;
-  font-weight: 600;
-}
-</style>
+<style scoped src="~/assets/styles/navigation.css"></style>

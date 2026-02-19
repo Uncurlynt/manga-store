@@ -1,0 +1,134 @@
+.header {
+    background: #0e0e0e;
+    border-bottom: 1px solid #222;
+}
+
+.banner {
+    width: 100%;
+    background: #dd2b37;
+    padding: 6px 12px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    gap: 24px;
+    padding: 16px 40px;
+}
+
+.logo {
+    display: inline-flex;
+    flex-direction: column;
+    line-height: 1;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.logo .logo-top {
+    color: #dd2b37;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.22);
+    text-shadow: 0 0 20px rgba(221, 43, 55, 0.35);
+    font-size: 18px;
+}
+
+.logo .logo-bottom {
+    color: #e9e9e9;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.35);
+    opacity: 0.9;
+    font-size: 18px;
+}
+
+.search {
+    justify-self: center;
+    width: min(520px, 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.search-inner {
+    position: relative;
+    width: min(280px, 100%);
+    transition: width 0.25s ease;
+}
+
+.search-inner:focus-within {
+    width: min(360px, 100%);
+}
+
+.search input {
+    width: 100%;
+    padding: 10px 38px 10px 14px;
+    background: rgba(10, 10, 10, 0.6);
+    border: 1px solid #dd2b37;
+    border-radius: 999px;
+    color: #fff;
+    outline: none;
+    transition: box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.search input::placeholder {
+    opacity: 0.65;
+}
+
+.search input:focus {
+    box-shadow: 0 0 0 3px rgba(221, 43, 55, 0.22);
+    background: rgba(12, 12, 12, 0.85);
+}
+
+.clear {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: auto;
+    height: auto;
+    padding: 0;
+
+    border: none;
+    background: transparent;
+    border-radius: 0;
+
+    opacity: 0.7;
+    display: grid;
+    place-items: center;
+    transition: opacity 0.2s ease, transform 0.15s ease;
+}
+
+.clear:hover {
+    opacity: 1;
+    transform: translateY(-50%) scale(1.05);
+}
+
+.clear svg {
+    width: 14px;
+    height: 14px;
+    display: block;
+}
+
+@media (max-width: 900px) {
+    .top {
+        grid-template-columns: 1fr;
+        padding: 14px 16px;
+    }
+
+    .search {
+        justify-self: stretch;
+    }
+
+    .search-inner,
+    .search-inner:focus-within {
+        width: 100%;
+    }
+
+    .logo {
+        align-items: center;
+    }
+}

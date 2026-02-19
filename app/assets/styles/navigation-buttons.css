@@ -1,0 +1,71 @@
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    align-items: center;
+}
+
+.icon,
+.iconbtn {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    /* убираем круг */
+    width: auto;
+    height: auto;
+    padding: 0;
+
+    background: none;
+    border: none;
+    border-radius: 0;
+
+    text-decoration: none;
+}
+
+.icon i,
+.iconbtn i {
+    font-size: 22px;
+    line-height: 1;
+
+    background-image: linear-gradient(
+            90deg,
+            #dd2b37 0%,
+            #dd2b37 45%,
+            #ffffff 55%,
+            #ffffff 100%
+    );
+    background-size: 220% 100%;
+    background-position: 100% 50%;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    transition: background-position 0.35s ease, transform 0.2s ease;
+}
+
+.icon:hover i,
+.iconbtn:hover i {
+    background-position: 0% 50%;
+    transform: translateY(-1px);
+}
+
+.icon.router-link-active i {
+    background-position: 0% 50%;
+}
+
+.count {
+    position: absolute;
+    top: -7px;
+    right: -8px;
+    background: #dd2b37;
+    color: #fff;
+    font-size: 11px;
+    padding: 2px 7px;
+    border-radius: 999px;
+    font-weight: 900;
+    letter-spacing: 0.6px;
+    box-shadow: 0 8px 22px rgba(221, 43, 55, 0.35);
+}
