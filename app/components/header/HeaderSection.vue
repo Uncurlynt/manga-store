@@ -12,7 +12,7 @@ const { query, setQuery, clearQuery } = useSearch()
 <template>
   <header class="header">
     <div class="banner">
-      Free shipping on orders over ¬£25
+      Free shipping on orders over £25
     </div>
 
     <div class="top">

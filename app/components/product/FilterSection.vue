@@ -18,25 +18,45 @@ const genres = computed(() =>
 
 <template>
   <aside class="filters">
-    <h3>Genres</h3>
+    <details class="filter-block" open>
+      <summary class="filter-summary">
+        <span>Genres</span>
+        <span class="arrow" aria-hidden="true">
+          <i class="fa-solid fa-chevron-right"></i>
+        </span>
+      </summary>
 
-    <label v-for="g in genres" :key="g">
-      <input
-          type="checkbox"
-          :checked="selectedGenres.includes(g)"
-          @change="toggleGenre(g)"
-      />
-      {{ g }}
-    </label>
+      <div class="filter-content">
+        <label v-for="g in genres" :key="g" class="chk">
+          <input
+              type="checkbox"
+              :checked="selectedGenres.includes(g)"
+              @change="toggleGenre(g)"
+          />
+          <span class="box"></span>
+          <span>{{ g }}</span>
+        </label>
+      </div>
+    </details>
 
-    <h3>Price</h3>
-    <input
-        type="range"
-        min="0"
-        max="50"
-        v-model.number="priceRange[1]"
-    />
-    <p>Up to £{{ priceRange[1] }}</p>
+    <details class="filter-block" open>
+      <summary class="filter-summary">
+        <span>Price</span>
+        <span class="arrow" aria-hidden="true">
+          <i class="fa-solid fa-chevron-right"></i>
+        </span>
+      </summary>
+
+      <div class="filter-content range">
+        <input
+            type="range"
+            min="0"
+            max="50"
+            v-model.number="priceRange[1]"
+        />
+        <p class="value">Up to £{{ priceRange[1] }}</p>
+      </div>
+    </details>
 
     <button class="clear" @click="clearFilters">
       Clear filters
@@ -44,21 +64,4 @@ const genres = computed(() =>
   </aside>
 </template>
 
-<style scoped>
-.filters {
-  border-right: 1px solid #222;
-  padding-right: 24px;
-}
-
-label {
-  display: block;
-  margin-bottom: 6px;
-}
-
-.clear {
-  margin-top: 16px;
-  background: #fff;
-  color: #000;
-  padding: 8px;
-}
-</style>
+<style scoped src="~/assets/styles/filter-section.css"></style>

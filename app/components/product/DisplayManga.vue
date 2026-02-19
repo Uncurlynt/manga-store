@@ -10,7 +10,10 @@ const { toggleWishlist, isInWishlist } = useWishlist()
 
 const isInCart = (id: string) => cart.value.some(i => i.manga.id === id)
 
-const genresShort = (genres: string[]) => genres.slice(0, 3).join(' · ')
+const genreClass = (g: string) =>
+    g.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+
+const limitedGenres = (genres: string[]) => genres.slice(0, 3)
 </script>
 
 <template>
@@ -25,26 +28,49 @@ const genresShort = (genres: string[]) => genres.slice(0, 3).join(' · ')
       </NuxtLink>
 
       <div class="body">
-        <h3 class="title">{{ m.title }} Vol. {{ m.vol }}</h3>
-        <p class="author">{{ m.author.name }}</p>
-        <p class="genres">{{ genresShort(m.genres) }}</p>
+        <div>
+          <h3 class="title">{{ m.title }} Vol. {{ m.vol }}</h3>
+          <p class="author">{{ m.author.name }}</p>
+
+          <div class="genres">
+            <span
+                v-for="g in limitedGenres(m.genres)"
+                :key="g"
+                class="genre-tag"
+                :class="genreClass(g)"
+            >
+              {{ g }}
+            </span>
+          </div>
+        </div>
 
         <div class="bottom">
           <div class="price">£{{ m.price }}</div>
 
           <div class="actions">
-            <button class="add" @click="addToCart(m)">
-              {{ isInCart(m.id) ? 'ADDED' : 'ADD' }}
+            <button
+                class="add"
+                :class="{ active: isInCart(m.id) }"
+                @click="addToCart(m)"
+                aria-label="Add to cart"
+                title="Add to cart"
+            >
+              <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
+
             </button>
+
 
             <button
                 class="wish"
                 :class="{ active: isInWishlist(m.id) }"
                 @click="toggleWishlist(m)"
-                aria-label="wishlist"
+                aria-label="Wishlist"
                 title="Wishlist"
             >
-              ♥
+              <i
+                  :class="isInWishlist(m.id) ? 'fa-solid fa-heart' : 'fa-regular fa-heart'"
+                  aria-hidden="true"
+              ></i>
             </button>
           </div>
         </div>
@@ -53,106 +79,5 @@ const genresShort = (genres: string[]) => genres.slice(0, 3).join(' · ')
   </div>
 </template>
 
-<style scoped>
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-}
-
-.card {
-  border: 1px solid #222;
-  background: #0f0f0f;
-}
-
-.cover {
-  position: relative;
-  display: block;
-}
-
-.cover img {
-  width: 100%;
-  height: 320px;
-  object-fit: contain;
-  background: #111;
-}
-
-.badges {
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  display: flex;
-  gap: 8px;
-}
-
-.badge {
-  font-size: 11px;
-  padding: 6px 8px;
-  background: #ffffff;
-  color: #000;
-  font-weight: 800;
-}
-
-.badge.alt {
-  background: #e50914;
-  color: #fff;
-}
-
-.body {
-  padding: 14px;
-}
-
-.title {
-  margin: 0 0 6px;
-  font-size: 18px;
-}
-
-.author {
-  margin: 0;
-  opacity: 0.75;
-  font-size: 13px;
-}
-
-.genres {
-  margin: 8px 0 0;
-  opacity: 0.7;
-  font-size: 12px;
-}
-
-.bottom {
-  margin-top: 14px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.price {
-  font-weight: 800;
-}
-
-.actions {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-
-.add {
-  padding: 8px 10px;
-  background: #1a1a1a;
-  border: 1px solid #2a2a2a;
-}
-
-.wish {
-  width: 36px;
-  height: 36px;
-  background: #151515;
-  border: 1px solid #2a2a2a;
-  display: grid;
-  place-items: center;
-  font-size: 16px;
-}
-
-.wish.active {
-  color: #e50914;
-}
-</style>
+<style scoped src="~/assets/styles/display-manga.css"></style>
+<style scoped src="~/assets/styles/genres.css"></style>

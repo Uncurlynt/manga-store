@@ -55,7 +55,7 @@
         transform: translateY(-50%);
         opacity: 0.35;
         color: #fff;
-        -webkit-text-stroke: 0;
+        -webkit-text-stroke: 0 transparent;
         background: none;
     }
 }
